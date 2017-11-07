@@ -241,7 +241,7 @@ img {
 
 #benefits1,
 #benefits2 { font-size: 14px; }
- 
+
 } @media (max-width: 767px) {
 
 .img-block-2col { text-align: center; }
@@ -525,9 +525,11 @@ input:focus::-webkit-input-placeholder {
 
 header {
     padding: 104px 0;
-    background: url(../images/header.jpg) no-repeat 50% 50%;
+    background: url(../images/doctors.jpg) no-repeat 50% 50%;
     font: 24px/36px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
+    /*color: rgb(40,	110,	145	);*/
+    color: rgb(0,	186,	248	);
+
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -542,10 +544,15 @@ header h1 {
     line-height: 60px;
     font-weight: 500;
     margin-bottom: 38px;
+    /*text-shadow: 2px 2px #bababa;*/
 }
 
 header h1 span {
     font-weight: 200
+    /*text-shadow: 2px 2px #bababa;*/
+}
+header p{
+  /*text-shadow: 2px 2px #bababa;*/
 }
 
 header .autor {
@@ -1011,7 +1018,7 @@ footer {
 
 /* ===[ Responsive all mobile sizes ]=== */
 
-@media (max-width: 979px) { 
+@media (max-width: 979px) {
   .newsletter-form {
       min-width: 0
   }
@@ -1155,7 +1162,7 @@ footer {
 
 /* ===[ Responsive just mobile portrait ]=== */
 
-@media (max-width: 479px) { 
+@media (max-width: 479px) {
   header .buttons-wrapper .button.button-stripe {
       margin-left: 0
   }
@@ -1166,7 +1173,7 @@ footer {
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .comments .tab-prev,
   .comments .tab-next,
   .button-download:after,
