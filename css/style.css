@@ -694,12 +694,15 @@ footer {
 }
 
 .medium-content {
-    float: left;
+    clear: both;
+    /*float: left;*/
     padding-top: 37px;
     padding-left: 50px;
-    width: 700px;
+    width: 70%;
     margin-top: 30px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content:  center;
 }
 
 .medium-content h3 {
@@ -713,7 +716,7 @@ footer {
 
 .medium-content ul {
     margin-bottom: 5px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .medium-content ul li {
@@ -733,7 +736,7 @@ footer {
 .medium-content ul li span {
     display: block;
     overflow: hidden;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 
@@ -1239,4 +1242,15 @@ footer {
   justify-content: center;
   align-items: center;
 
+}
+
+.futuro{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descripcion{
+  width: 80%;
 }
